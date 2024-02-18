@@ -1,0 +1,15 @@
+:root {
+    --Almost_White: hsl(0, 0%, 98%);
+    --Medium_Gray: hsl(0, 0%, 41%);
+    --Almost_Black: hsl(0, 0%, 8%);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.1rem;
+}
