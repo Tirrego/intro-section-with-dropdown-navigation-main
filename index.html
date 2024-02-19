@@ -40,16 +40,51 @@
         </div>
         <ul class="nav__links">
           <div class="dropdown-features dropdown js-features">
-            <a href="#">Features</a>
-            <div class="features__items disable dropdown-items js-features-items">
-              <a href="#"><img src="images/icon-todo.svg" alt="" />Todo List</a>
-              <a href="#"><img src="images/icon-calendar.svg" alt="" />Calender</a>
-              <a href="#"><img src="images/icon-reminders.svg" alt="" />Reminders</a>
-              <a href="#"><img src="images/icon-planning.svg" alt="" />Planning</a>
+            <a href="#"
+              >Features
+              <img
+                class="js-arrow-f arrow"
+                src="images/icon-arrow-down.svg"
+                alt=""
+            /></a>
+            <div
+              class="features__items disable dropdown-items js-features-items"
+            >
+              <a href="#"
+                ><img class="item-img" src="images/icon-todo.svg" alt="" />Todo
+                List</a
+              >
+              <a href="#"
+                ><img
+                  class="item-img"
+                  src="images/icon-calendar.svg"
+                  alt=""
+                />Calender</a
+              >
+              <a href="#"
+                ><img
+                  class="item-img"
+                  src="images/icon-reminders.svg"
+                  alt=""
+                />Reminders</a
+              >
+              <a href="#"
+                ><img
+                  class="item-img"
+                  src="images/icon-planning.svg"
+                  alt=""
+                />Planning</a
+              >
             </div>
           </div>
           <div class="dropdown-company dropdown js-company">
-            <a href="#">Company</a>
+            <a href="#"
+              >Company
+              <img
+                class="js-arrow-c arrow"
+                src="images/icon-arrow-down.svg"
+                alt=""
+            /></a>
             <div class="company__items disable dropdown-items js-company-items">
               <a href="#">History</a>
               <a href="#">Our Team</a>
@@ -58,24 +93,67 @@
           </div>
           <li><a href="#">Careers</a></li>
           <li><a href="#">About</a></li>
+          <div class="user-menu-mobile">
+            <a href="">login</a>
+            <a class="mobile-register" href="">register</a>
+          </div>
         </ul>
+        <div class="exit disable">
+          <img src="images/icon-close-menu.svg" alt="">
+        </div>
       </nav>
       <div class="user-menu">
         <a class="login" href="#">Login</a>
         <a class="register" href="#">Register</a>
       </div>
+      <div class="burger-icon disable">
+        <img src="images/icon-menu.svg" alt="">
+      </div>
     </header>
+    <main>
+      <div class="main-container">
+        <div class="text-half">
+          <h1 class="content-heading">Make remote work</h1>
+          <p class="content-text">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <div class="btn-container">
+            <button class="content-button">Learn More</button>
+          </div>
 
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
+          <div class="sponsor">
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+            <img src="images/client-meet.svg" alt="" />
+          </div>
+        </div>
+        <div class="img-half">
+          <picture>
+            <source
+              media="(max-width: 900px)"
+              srcset="/images/image-hero-mobile.png"
+            />
+            <img
+              class="content-img"
+              src="/images/image-hero-desktop.png"
+              alt="Desktop Image"
+            />
+          </picture>
+        </div>
+      </div>
+    </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
